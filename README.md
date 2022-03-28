@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Solution Link](https://github.com/mastertbal/column-preview-card)
-- Live Site URL:[Live State Link](https://mastertbal.github.io/NFT-PREVIEW-CARD-/index.html)
+- Live Site URL:[Live State Link](https://mastertbal.github.io/column-preview-card/index.html)
 
 ## My process
 
