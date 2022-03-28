@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Big+Shoulders+Display:wght@700&family=Outfit:wght@600&family=Poppins:wght@200;300;400;600;700&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', 'sans-serif';
+    font-weight: 700;
+}
+
+:root {
+    --bright-orange-color: hsl(31, 77%, 52%);
+    --dark-cyan-color: hsl(184, 100%, 22%);
+    --very-dark-cyan-color: hsl(179, 100%, 13%);
+    --text-color: white;
+}
+
+.main-page {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30vh auto;
+}
+
+section {
+    padding: 25%;
+}
+
+.sec-1 {
+    background-color: var(--bright-orange-color);
+}
+
+.sec-2 {
+    background-color: var(--dark-cyan-color);
+}
+
+.sec-3 {
+    background-color: var(--very-dark-cyan-color);
+}
+
+h1 {
+    color: var(--text-color);
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+p {
+    color: var(--text-color);
+    margin-top: 20px;
+    opacity: 0.7;
+    font-size: 18px;
+}
+
+.link-div {
+    width: 200px;
+    margin-top: 40%;
+} 
+
+
+div a {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#sec-1-anchor {
+    color: var(--bright-orange-color);
+}
+
+#sec-2-anchor {
+    color: var(--dark-cyan-color);
+}
+
+#sec-3-anchor {
+    color: var(--very-dark-cyan-color);
+}
+
+@media (max-width: 1210px) {
+    .main-page {
+        display: grid;
+        width: 330px;
+        grid-template-columns: 1fr;
+        margin: 10vh auto;
+    }
+}
