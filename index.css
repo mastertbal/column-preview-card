@@ -53,30 +53,47 @@ p {
     font-size: 18px;
 }
 
-.link-div {
-    width: 200px;
+
+a {
+    display: inline-block;
     margin-top: 40%;
-} 
-
-
-div a {
     background-color: white;
     padding: 10px 25px;
     border-radius: 20px;
     text-decoration: none;
 }
 
+
 #sec-1-anchor {
     color: var(--bright-orange-color);
+}
+
+#sec-1-anchor:hover {
+    background-color: transparent;
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
 }
 
 #sec-2-anchor {
     color: var(--dark-cyan-color);
 }
 
+#sec-2-anchor:hover {
+    background-color: transparent;
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
+}
+
 #sec-3-anchor {
     color: var(--very-dark-cyan-color);
 }
+
+#sec-3-anchor:hover {
+    background-color: transparent;
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
+}
+
 
 @media (max-width: 1210px) {
     .main-page {
